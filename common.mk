@@ -105,6 +105,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze \
 
+# Samsung Ext
+PRODUCT_PACKAGES += \
+    vendor.samsung_ext.hardware.camera.flashlight-service \
+    FlashControl
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
@@ -363,6 +368,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/samsung \
+    hardware/samsung-ext/interfaces \
     vendor/qcom/opensource/usb/etc \
 
 # Telephony
