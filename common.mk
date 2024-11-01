@@ -387,6 +387,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    libsecril-client \
     secril_config_svc \
 
 # Seccomp Policy
