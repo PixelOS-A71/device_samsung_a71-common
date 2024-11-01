@@ -32,7 +32,7 @@ vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
 
 # Audio
-system_ext/framework/audiosphere.jar
+system/system_ext/framework/audiosphere.jar
 vendor/bin/audioflacapp
 vendor/lib/hw/audio.primary.sm6150.so:vendor/lib/hw/audio.primary.qcom.so;FIX_SONAME
 vendor/lib/hw/audio.sec_primary.default.so
@@ -151,9 +151,9 @@ vendor/firmware/apbtfw11.tlv
 vendor/firmware/apnv11.bin
 
 # Camera
-lib/libFacePreProcessing.camera.samsung.so:vendor/lib/libFacePreProcessing.camera.samsung.so
-lib64/libFacePreProcessing.camera.samsung.so:vendor/lib64/libFacePreProcessing.camera.samsung.so
-lib64/libFacialStickerEngine.arcsoft.so:vendor/lib64/libFacialStickerEngine.arcsoft.so
+system/lib/libFacePreProcessing.camera.samsung.so:vendor/lib/libFacePreProcessing.camera.samsung.so
+system/lib64/libFacePreProcessing.camera.samsung.so:vendor/lib64/libFacePreProcessing.camera.samsung.so
+system/lib64/libFacialStickerEngine.arcsoft.so:vendor/lib64/libFacialStickerEngine.arcsoft.so
 vendor/lib/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib/camera/components/com.qti.eisv2.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.qti.eisv3.so;DISABLE_CHECKELF
@@ -723,9 +723,9 @@ vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
 # Power
-bin/lpm
-lib64/libmaet.so
-lib64/libsxqk_skia.so
+system/bin/lpm
+system/lib64/libmaet.so
+system/lib64/libsxqk_skia.so
 
 # Qualcomm MSM Interface
 vendor/bin/irsc_util
