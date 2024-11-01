@@ -1,5 +1,5 @@
 # All unpinned blobs below are extracted from a71naxx-user 13 TP1A.220624.014 A715FXXSBDXB1 release-keys
-
+# ITALY-ITV | CSC version: A715FOXMBDXB1
 # lowi-server depends on libwpa_client, which is a gnu makefile target
 
 # ADSP
@@ -730,9 +730,19 @@ system/lib64/libsxqk_skia.so
 # Qualcomm MSM Interface
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
+vendor/etc/hyper/config_chipset.json
+vendor/etc/hyper/config_hyper_permission.json
+vendor/etc/hyper/config_vendor.json
 vendor/etc/init/init.qti.qcv.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
+vendor/etc/ssg/ta_config.json
+vendor/etc/ssg/tz_whitelist.json
+vendor/etc/str/str_preference_data.dat
+vendor/etc/mercury.json
+vendor/etc/msm_irqbalance.conf
+vendor/etc/sec_config
+vendor/etc/sec_config_oem
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
@@ -842,6 +852,15 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 # SEC
 vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
+
+# Seccomp Policy
+vendor/etc/seccomp_policy/codec2.vendor.ext.policy
+vendor/etc/seccomp_policy/configstore@1.1.policy
+vendor/etc/seccomp_policy/mediacodec.policy
+vendor/etc/seccomp_policy/mediaextractor_sec.policy
+vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy
+vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 
 # Sensors
 vendor/lib/libsensorlistener.so
