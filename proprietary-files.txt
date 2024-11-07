@@ -859,7 +859,7 @@ vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 
 # Sensors
-vendor/lib/libsensorlistener.so
+vendor/lib/libsensorlistener.so;DISABLE_CHECKELF
 vendor/lib/libsensorslog.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
@@ -871,7 +871,7 @@ vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/sensors.ssc.so
 vendor/lib64/libnanopb.so
-vendor/lib64/libsensorlistener.so
+vendor/lib64/libsensorlistener.so;DISABLE_CHECKELF
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
