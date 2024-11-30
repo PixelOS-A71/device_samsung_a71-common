@@ -87,7 +87,7 @@ BOARD_USES_SYSTEM_OTHER_ODEX := true
 BOARD_USES_DPM := true
 
 # FM
-BOARD_HAVE_QCOM_FM := true
+BOARD_HAVE_QCOM_FM := false
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # GPS
