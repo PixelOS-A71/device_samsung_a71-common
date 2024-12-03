@@ -101,10 +101,6 @@ PRODUCT_PACKAGES += \
     aptxalsOverlay \
     audio.bluetooth.default \
 
-# Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider-service_32.samsung \
-
 # Charger
 PRODUCT_PACKAGES += \
     vendor.lineage.fastcharge@1.0-service.samsung \
@@ -123,14 +119,6 @@ $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_
 # Display
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
-
-# SamsungAdvancedDisplay
-PRODUCT_PACKAGES += \
-    AdvancedDisplay \
-
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze \
 
 # Samsung Ext
 PRODUCT_PACKAGES += \
