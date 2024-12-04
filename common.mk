@@ -101,6 +101,10 @@ PRODUCT_PACKAGES += \
     aptxalsOverlay \
     audio.bluetooth.default \
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider-service_32.samsung \
+
 # Charger
 PRODUCT_PACKAGES += \
     vendor.lineage.fastcharge@1.0-service.samsung \
